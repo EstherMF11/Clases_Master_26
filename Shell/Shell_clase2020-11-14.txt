@@ -1,0 +1,107 @@
+mkdir Repor
+ll
+type l
+type ll
+MASTER=kschool
+echo $MASTER
+printenv
+alias gc="git commit -m"
+gc test
+alias gs="git status"
+gs
+echo $MASTER
+less .zshrc
+type ls
+type python
+which python
+type cp
+whereis python
+which python
+which pip
+cd Data/shell
+head Finn.txt
+head -5 Finn.txt
+head -n 5 Finn.txt
+head -n -5 Finn.txt
+tail -3 Finn.txt
+tail -5 Finn.txt
+tail -n 5 Finn.txt
+tail -n -5 Finn.txt
+wc Finn.txt
+wc -l Finn.txt
+wc -w Finn.txt
+echo "HELP MEEE"
+echo "HELP MEEE" | wc
+wc Text_example.txt
+cat Text_example.txt
+cat Text_example.txt | wc
+cat Text_example.txt | head 10 | wc
+cat Text_example.txt | head | wc
+cat Text_example.txt | head -3 | wc
+head -3 Text_example.txt | wc
+cat Text_example.txt | wc
+cat Text_example.txt | wc > salida
+ll
+cat salida
+file salida
+cat Text_example.txt | wc > salida
+cat salida
+cat Text_example.txt | wc >> salida
+cat salida
+wc < Text_example.txt
+wc largest_file.txt
+cp opentraveldata
+ls
+ls S
+l S
+ls 
+ls largest_file.txt
+cp opentraveldata
+cp Data
+cd Data
+cd opentraveldata
+cd .
+cd
+cd Data
+cd opentraveldata
+l S
+ls
+wc optd_aircraft.csv
+wc optd_airlines.csv
+wc optd_por_public.csv
+wc ref_airline_nb_of_flights.csv
+cat optd_por_public.csv | wc >> largest_file.txt
+wc largest_file.txt
+cd
+cd opentraveldata
+cd Data
+cd opentraveldata
+ll
+ls -l
+ll -S
+rm largest_file.txt
+ll
+ll -S
+ll -S | head 2 | tail 1
+ll -S | head 2 | tail -1 > largest_file.txt
+ll -S | head -2 | tail -1 > largest_file.txt
+ll
+cd
+cd Data
+cd sheññ
+cd shell
+head -5 Finn.txt | wc -w
+cat Text_example.txt| head -3 | less -N
+cd
+cd Repos
+git init ClasesMaster
+cd Repos
+l
+cd Repor
+git init ClasesMaster
+cd ClasesMaster
+mkdir Shell
+mkdir Python
+mkdir Challenge
+cd Shell
+cat ~/.history > Shell_clase2020-11-14.txt
