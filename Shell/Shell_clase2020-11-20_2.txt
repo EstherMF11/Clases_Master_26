@@ -1,0 +1,176 @@
+#Segunda parte de la clase 21-11-2020
+ll
+git status
+gedit Shell_clase2020-11-20.txt
+cd Repos
+git status
+cd Clases_Master_26
+git add
+git add .
+git status
+git commit -m "Clase 20-11 nuevos comandos"
+git puss
+git push
+cp -r ClasesMaster ClasesMaster_test
+cp ..
+cd ..
+git status
+cd Clases_Master_26
+git status
+git log 
+cd ..
+ls
+cp -r Clases_Master_26 Clases_Master_26_test
+ls
+cd Clases_Master_26_test
+git ls - files
+touch shell.backup
+git status
+touch .gitignore
+echo '*backup' >> .gitignore
+git status
+git add .gitignore
+git commit -m "added .gitignore"
+git status
+ll
+cd Shell
+gedit Shell_clase2020-11-
+cd ..
+cp -r Clases_Master_26_test Clases_Master_26_test2
+cp -r Clases_Master_26_test Clases_Master_26_test3
+cp -r Clases_Master_26_test Clases_Master_26_test4
+cd Clases_Master_26_test2
+git add -u
+git status
+cd ..
+cd Clases_Master_26_test3/git status
+cd Clases_Master_26_test3
+git status
+ll
+git log
+cd ..
+git push
+git log
+git status -sb
+cd Clases_Master_26
+git status
+git log --oneline
+cd ..
+rm -rf Clases_Master_26_test2
+git status -sb
+rm -rf Clases_Master_26_test3
+rm -rf Clases_Master_26_test4
+git status -sb
+rm -rf Clases_Master_26_test
+git status -sb
+git push .
+git status
+git log 
+cd Class_Master
+cd Clases_Master_26
+git status
+ll
+ls
+cd Shell
+ls
+git push 
+cd .
+cd ..
+git status -sb
+git commit -m "Historial de la clase 20-11 ha sido subido en la carperta Clases_Master_26/Shell"
+git push
+git status
+git status -sb
+git log --oneline
+git add .
+git commit -m "Añadido a Clases_Master_26/Shell el historial 20-11"
+git status -sb
+git log
+git log --oneline
+cd Clases_Master_26
+cd 
+cd Data/shell
+ll
+zip text_files. Fin.txt Text_example
+zip text_files. Fin.txt Text_example.txt
+zip text_files.zip Fin.txt Text_example.txt
+ll
+rm -rf text_files.
+ll
+zcat text_files.zip
+zcat text_files.zip | less
+qq
+zipinfo
+zipinfo text_files.zip
+zip text_files.zip Fin.txt Text_example.txt
+zipinfo text_files.zip
+unzip text_files.zip
+mkdir unzipped
+cd unzipped
+cd ../
+mv text_files.zip unzipped
+cd unzipped
+unzip text_files.zip
+ll
+cd ..
+gzip
+gzip Finn.txt Text_example_copy.txt
+ll
+gunzip Finn.txt.gz Text_example_copy.txt.gz
+ll
+cd unzipped/
+ll
+cd ..
+bzip2 Finn.txt Text_example_copy.txt Text_example.txt
+ll
+bunzip2 Finn.txt.bz2 Text_example_copy.txt.bz2 Text_example.txt.bz2
+ll
+echo "bz2 para archivos MUY GRANDESllll"
+bunzip2 *.txt
+clear
+ll
+tar -czvf text_files.tar *.txt
+zless text_files.tar
+mkdir untar
+mv text_files.tar untar/
+ll
+cd untar
+ll
+tar -xvf text_files.tar
+echo "bzip y bzip2 solo son un fichero, cuando es tar tenemos mÃ\81s de uno"
+cd
+cd Data
+cd opentraveldata
+paste <(seq 10) <(head -1 optd_aircraft.csv| tr "^" "\n")
+touch column_name_number.sh
+gedit column_name_number.sh
+bash ./column_name_number.sh
+./column_name_number.sh
+chmod 777 column_name_number.sh
+./column_name_number.sh
+gedit column_name_number.sh
+./column_name_number.sh
+which bash
+gedit column_name_number.sh
+./column_name_number.sh optd_aircraft.csv
+gedit column_name_number.sh
+./column_name_number.sh optd_aircraft.csv
+echo $0
+gedit column_name_number.sh
+./column_name_number.sh optd_aircraft.csv
+./column_name_number.sh optd_aircraft.csv "^"
+gedit column_name_number.sh
+./column_name_number.sh optd_aircraft.csv "^"
+gedit column_name_number.sh
+./column_name_number.sh optd_aircraft.csv "^"
+gedit column_name_number.sh
+./column_name_number.sh optd_aircraft.csv "^"
+gedit column_name_number.sh
+./column_name_number.sh optd_aircraft.csv "^"
+gedit column_name_number.sh
+./column_name_number.sh optd_aircraft.csv "^"
+gedit column_name_number.sh
+./column_name_number.sh optd_aircraft.csv "^"
+gedit column_name_number.sh
+./column_name_number.sh optd_aircraft.csv "^"
+cat ~/.history > ./Shell_clase2020-11-20_2.txt
